@@ -1,0 +1,87 @@
+contentitemexportablefields:
+  contentitemfields:
+    definitionid: ""
+    fromServerVersion: ""
+    itemVersion: ""
+    packID: ""
+    packName: ""
+    prevname: ""
+    propagationLabels:
+    - all
+    toServerVersion: ""
+id: d6c02152-c97b-4648-837a-198b81e8a5b0
+inputs: []
+name: a
+outputs: []
+quiet: true
+starttaskid: "0"
+tasks:
+  "0":
+    continueonerrortype: ""
+    id: "0"
+    ignoreworker: false
+    isautoswitchedtoquietmode: false
+    isoversize: false
+    nexttasks:
+      '#none#':
+      - "1"
+    note: false
+    quietmode: 0
+    separatecontext: false
+    skipunavailable: false
+    task:
+      brand: ""
+      id: 552a2d4b-0c8d-44cd-8d3b-a947150fe83e
+      iscommand: false
+      name: ""
+      version: -1
+    taskid: 552a2d4b-0c8d-44cd-8d3b-a947150fe83e
+    timertriggers: []
+    type: start
+    view: |-
+      {
+        "position": {
+          "x": 450,
+          "y": 50
+        }
+      }
+  "1":
+    continueonerrortype: ""
+    id: "1"
+    ignoreworker: false
+    isautoswitchedtoquietmode: false
+    isoversize: false
+    note: false
+    quietmode: 0
+    separatecontext: false
+    skipunavailable: false
+    task:
+      brand: ""
+      id: 31b674d8-9d33-4fed-8144-8ff88296fd74
+      iscommand: false
+      name: Untitled Task
+      type: regular
+      version: -1
+    taskid: 31b674d8-9d33-4fed-8144-8ff88296fd74
+    timertriggers: []
+    type: regular
+    view: |-
+      {
+        "position": {
+          "x": 440,
+          "y": 250
+        }
+      }
+version: -1
+view: |-
+  {
+    "linkLabelsPosition": {},
+    "paper": {
+      "dimensions": {
+        "height": 295,
+        "width": 390,
+        "x": 440,
+        "y": 50
+      }
+    }
+  }
